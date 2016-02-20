@@ -1,0 +1,47 @@
+{
+  "name": "insight",
+  "description": "Insight is a generic web dashboard for smart city projects.",
+  "version": "0.0.2-b",
+  "dependencies": {
+    "jquery": "^1.11.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-connect": "^2.2.0",
+    "gulp-cssmin": "^0.1.6",
+    "gulp-jsdoc-to-markdown": "^0.1.6",
+    "gulp-jshint": "^1.9.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^2.0.0",
+    "gulp-uglify": "^1.1.0",
+    "qunitjs": "^1.17.1"
+  },
+  "author": "Felipe Lalanne <flalanne@niclabs.cl>",
+  "license": "APACHE-2.0",
+  "main": "dist/insight.min.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IIITKalyaniHackathon/SmartCity-Idea.git"
+  },
+  "keywords": [
+    "smartcities",
+    "dataviz",
+    "visualization",
+    "urban",
+    "map"
+  ],
+  "bugs": {
+    "url": "https://github.com/IIITKalyaniHackathon/SmartCity-Idea/issues"
+  },
+  "homepage": "https://github.com/IIITKalyaniHackathon/SmartCity-Idea"
+}
